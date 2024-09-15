@@ -25,10 +25,10 @@ class Gato extends Animal {
 
 class ProbarAnimal {
     public static void main(String[] args){
-        Animal perro = new Animal();
-        Animal gato = new Animal();
-        perro.hacerSonido();
-        gato.hacerSonido();
+        Animal perros = new Perro();
+        Animal gatos = new Gato();
+        perros.hacerSonido();
+        gatos.hacerSonido();
     }
 
 }
