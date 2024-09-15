@@ -22,3 +22,13 @@ class Gato extends Animal {
         System.out.println("meow");
     }
 }
+
+class ProbarAnimal {
+    public static void main(String[] args){
+        Animal perro = new Animal();
+        Animal gato = new Animal();
+        perro.hacerSonido();
+        gato.hacerSonido();
+    }
+
+}
