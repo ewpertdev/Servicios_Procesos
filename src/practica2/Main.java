@@ -1,8 +1,5 @@
 package practica2;
 
-
-import java.awt.image.ImageProducer;
-
 interface Imprimible {
     String imprimir();
 }
@@ -12,6 +9,8 @@ public class Documento implements Imprimible {
     private String scan;
 
     public Documento (String send, String scan) {
+        this.send = send;
+        this.scan = scan;
 
     }
 
