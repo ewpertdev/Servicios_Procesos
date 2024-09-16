@@ -22,17 +22,6 @@ public class Documento implements Imprimible {
         return this.contenido;
     }
 }
-public class Reporte implements Imprimible {
-    private String enviar;
-    private String contenido;
-
-    public Reporte (String enviar, String contenido){
-
-    }
-
-}
-
-holaaaaedwqedwqeq
 
 class Test {
     public static void main(String[] args){
