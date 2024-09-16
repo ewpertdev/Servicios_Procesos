@@ -32,7 +32,7 @@ public class Reporte implements Imprimible {
 
 }
 
-holaaaa
+holaaaaedwqedwqeq
 
 class Test {
     public static void main(String[] args){
