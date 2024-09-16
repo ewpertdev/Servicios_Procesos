@@ -1,36 +1,25 @@
 package practica2;
 
 
-interface Imprimible{
-        void setImprimir( int imprimir);
-        public int getImprimir();
+import java.awt.image.ImageProducer;
 
-        }
+interface Imprimible {
+    String imprimir();
+}
 
-    class Documento implements Imprimible{
-    private int imprimir;
+public class Documento implements Imprimible {
+    private String send;
+    private String scan;
 
-        @Override
-        public void setImprimir(int imprimir) {
+}
+public class Reporte implements Imprimible {
+    private String send;
+    private String scan;
 
-        }
+}
 
-        @Override
-        public int getImprimir() {
-            return 0;
-        }
+class ProbarImprimir {
+    public static void main(String[] args){
+
     }
-
-    class Reporte implements Imprimible{
-    private int imprimir;
-
-        @Override
-        public void setImprimir(int imprimir) {
-
-        }
-
-        @Override
-        public int getImprimir() {
-            return 0;
-        }
-    }
+}

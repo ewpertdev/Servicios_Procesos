@@ -1,4 +1,4 @@
-package Practica0;
+package practica0;
 
 import java.util.Date;
 
@@ -51,8 +51,15 @@ class Prestamo {
     }
 }
 
-class Biblioteca {
+class ProbarBiblioteca1 {
     public static void main (String[] args) {
+
+
+    }
+}
+
+class ProbarBiblioteca2 {
+    public static void main(String [] args) {
 
     }
 }
