@@ -32,6 +32,8 @@ public class Reporte implements Imprimible {
 
 }
 
+holaaaa
+
 class Test {
     public static void main(String[] args){
 
