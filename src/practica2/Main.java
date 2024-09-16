@@ -32,7 +32,7 @@ public class Reporte implements Imprimible {
 
 }
 
-class ProbarImprimir {
+class Test {
     public static void main(String[] args){
 
     }
