@@ -5,21 +5,28 @@ interface Imprimible {
 }
 
 public class Documento implements Imprimible {
-    private String send;
-    private String scan;
+    private String enviar;
+    private String contenido;
 
-    public Documento (String send, String scan) {
-        this.send = send;
-        this.scan = scan;
+    public Documento (String enviar, String contenido) {
+        this.enviar = enviar;
+        this.contenido = contenido;
 
     }
 
+    public String getEnviar() {
+        return enviar;
+    }
+
+    @Override
+    public S
+    }
 }
 public class Reporte implements Imprimible {
-    private String send;
-    private String scan;
+    private String enviar;
+    private String contenido;
 
-    public Reporte (String send, String scan){
+    public Reporte (String enviar, String contenido){
 
     }
 
