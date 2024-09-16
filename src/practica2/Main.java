@@ -18,8 +18,8 @@ public class Documento implements Imprimible {
         return enviar;
     }
 
-    @Override
-    public S
+    public String imprimir(){
+        return this.contenido;
     }
 }
 public class Reporte implements Imprimible {
