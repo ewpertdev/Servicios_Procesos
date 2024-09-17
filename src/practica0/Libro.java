@@ -3,11 +3,11 @@ package practica0;
 import java.util.Date;
 
 class Libro {
-    String isbn;
-    String titulo;
-    String autor;
-    int anioPublicacion;
-    boolean disponible = true;
+    private String isbn;
+    private String titulo;
+    private String autor;
+    private int anioPublicacion;
+    private boolean disponible = true;
 
     void Prestamo(){
 

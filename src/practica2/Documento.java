@@ -23,6 +23,10 @@ public class Documento implements Imprimible {
     }
 }
 
+public class Reporte implements Imprimible{
+    private String enviar;
+}
+
 class Test {
     public static void main(String[] args){
 
